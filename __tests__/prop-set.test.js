@@ -48,7 +48,7 @@ describe('PropSet', () => {
       matcher: (prop) => prop.category === 'test-b',
       transformer: (prop) => prop.name
     }
-    set = new PropSet(file, [t1, t2])
+    set = new PropSet(file, [t1, t2], null, true)
   })
 
   describe('#constructor', () => {
